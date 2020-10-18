@@ -5,11 +5,24 @@
 int  main ()
 {
 	setlocale (LC_ALL, « русский » );
-	строка строка, ответ, команда;
+	строка строка, ответ, команда, rule;
 	символ char ;
 	int sh;
-	cout << " Введите шаг сдвига: " << endl;
-	cin >> sh; //блок ввода переменных
+	bool T; //описание переменных
+	do 
+	{
+	        T = true;
+		cout << "Введите шаг сдвига: ";
+		cin >> rule; //ввод данных
+		for (int i = 0; i < rule.length(); i++) {
+			if ((!isdigit(rule[i])) and (rule[i] != '-')) {
+				T = false;
+				cout << "Неверный ввод. Введите только целое число." << endl;
+				break;
+			}
+		}
+	} while (!T); //проверка ввода
+	sh = atoi(rule.c_str());
 	делать
 	{
 		cout << " Введите encode для кодирования или decode для расшифровки: " << endl;

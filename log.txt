@@ -1,0 +1,14 @@
+
+Program is started : Mon Nov 16 00:39:42 2020
+Line is encoded : Mon Nov 16 00:39:50 2020
+Program finished : Mon Nov 16 00:39:50 2020
+
+Program is started : Mon Nov 16 14:02:45 2020
+Line is encoded : Mon Nov 16 14:06:38 2020
+Program finished : Mon Nov 16 14:06:38 2020
+
+Program is started : Mon Nov 16 14:08:28 2020
+Invalid enter.: Mon Nov 16 14:08:50 2020
+Line is decoded : Mon Nov 16 14:09:08 2020
+Program finished : Mon Nov 16 14:09:08 2020
+
